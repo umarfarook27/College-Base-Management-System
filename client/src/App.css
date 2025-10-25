@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #2196F3, #1976D2);
+  border: none;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #1976D2, #1565C0);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.form-control:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 0 0.2rem rgba(33, 150, 243, 0.25);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
